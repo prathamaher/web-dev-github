@@ -36,3 +36,6 @@ git reset [file name]      ---> to delete or get rid of staged changes
                                 after this commmand the changes get unstaged so to 
                                 remove the unstaged changes we again have to use <git checkout -- .> or 
                                 <git checkout -- [file name]> 
+
+
+-----------------------------------------------------------------------
