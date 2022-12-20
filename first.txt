@@ -16,3 +16,7 @@ git config --global user.name “[firstname lastname]”  --->     set a name th
 git config --global user.email “[valid-email]”         --->     set an email address that will be associated with each history marker
 
 git branch          --->       list your branches. a * will appear next to the currently active branch
+
+git checkout        --->       switch to another branch and check it out into your working directory
+
+git merge [branch]  --->       merge the specified branch’s history into the current one
