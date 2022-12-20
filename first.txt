@@ -22,3 +22,17 @@ git checkout        --->       switch to another branch and check it out into yo
 git merge [branch]  --->       merge the specified branch’s history into the current one
 
 git log             --->       show all commits in the current branch’s history
+
+
+git reset --hard HEAD~1    --->  deletes latest commit
+
+git reset --hard [commit]       --->   clear staging area, rewrite working tree from specified commit
+
+git branch -D [branch name]     ---> to delete the specified branch
+
+git checkout -- .           ---> to get rid of unstaged changes
+
+git reset [file name]      ---> to delete or get rid of staged changes
+                                after this commmand the changes get unstaged so to 
+                                remove the unstaged changes we again have to use <git checkout -- .> or 
+                                <git checkout -- [file name]> 
