@@ -1,4 +1,18 @@
- "how are you"
+git commands-->
 
 
-and this is my another text
+git init    --->    to initialize a new repository
+
+git status  --->    shows modified files in working directory, 
+                    staged or unstaged files for your next commit.
+
+git add     --->    to add modified  files or untracked files to staging area
+                    or simply to stage a file.
+        
+git commit -m “[descriptive message]”   --->      commit your staged content as a new commit snapshot
+
+git config --global user.name “[firstname lastname]”  --->     set a name that is identifiable for credit when review version history
+
+git config --global user.email “[valid-email]”         --->     set an email address that will be associated with each history marker
+
+git branch          --->       list your branches. a * will appear next to the currently active branch
