@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2025-02-12T06:57:51.024Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="23.1.1" etag="90YQ5AX4D_6wNrgwc56d" type="github">
+<mxfile host="app.diagrams.net" modified="2025-02-12T07:06:32.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" etag="HClty90FCtHB5MyMKyKR" version="23.1.1" type="github">
   <diagram name="Page-1" id="gdxQP28Q4PMXCkHG_m_j">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6hBJN_xqDrhe8k2JgSnN-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="710" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="6hBJN_xqDrhe8k2JgSnN-2" value="stack" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="100" y="50" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6hBJN_xqDrhe8k2JgSnN-3" value="event loop" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="125" y="270" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6hBJN_xqDrhe8k2JgSnN-6" value="&lt;b&gt;task queue&lt;/b&gt; (callback based queue)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="270" y="240" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6hBJN_xqDrhe8k2JgSnN-7" value="&lt;b&gt;micro task queue&lt;/b&gt; (promised based queue)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="270" y="320" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6hBJN_xqDrhe8k2JgSnN-9" value="Web APIs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="260" y="60" width="420" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6hBJN_xqDrhe8k2JgSnN-11" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="125" y="210" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6hBJN_xqDrhe8k2JgSnN-12" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
